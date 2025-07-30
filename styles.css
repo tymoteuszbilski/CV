@@ -89,19 +89,18 @@ h4 {
   color: var(--dark-color);
 }
 
+#education .stage {
+  margin-bottom: 0.8em;
+}
+
 .column {
-  padding: 0.4em;
+  padding: 1rem;
 }
 
 .stage-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.stage {
-  margin: 0.6em;
-  margin-left: 1em;
 }
 
 p {
@@ -120,21 +119,15 @@ i {
   color: var(--light-color);
 }
 
-#righthed {
-  color: var(--bright-color);
-}
-
 #left {
   flex: 1;
   background-color: var(--dark-color);
   color: var(--bright-color);
-  padding-left: 1rem;
 }
 
 #right {
   flex: 2;
   background-color: var(--bright-color);
-  padding-left: 1rem;
 }
 
 ul {
@@ -151,8 +144,8 @@ li {
 }
 
 img {
-  align-items: center;
   margin-top: 20px;
+  margin-bottom: 10px;
   border: solid var(--light-color) 2px;
   width: 200px;
   height: 200px;
