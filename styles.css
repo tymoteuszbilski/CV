@@ -72,6 +72,10 @@ section {
   margin: 0.2em;
 }
 
+.stage {
+  margin: 0.5rem;
+}
+
 a {
   color: var(--bright-color);
   border-radius: 0.4em;
@@ -87,10 +91,6 @@ a:hover {
 h4 {
   margin: 0;
   color: var(--dark-color);
-}
-
-#education .stage {
-  margin-bottom: 0.8em;
 }
 
 .column {
@@ -163,6 +163,10 @@ img {
   display: none;
 }
 
+br {
+  display: none;
+}
+
 @media (max-width: 800px) {
   html {
     font-size: large;
@@ -176,6 +180,12 @@ img {
     height: 300px;
     object-fit: contain;
   }
+  .stage {
+    margin: 0;
+  }
+  #education .stage {
+    margin-bottom: 0.8em;
+  }
   .nameLargeScreen {
     display: none;
   }
@@ -188,6 +198,10 @@ img {
   }
   body {
     padding: 5px;
+  }
+
+  br {
+    display: block;
   }
 }
 @media (max-width: 600px) {
