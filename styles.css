@@ -193,6 +193,9 @@ img {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
+  body {
+    padding: 5px;
+  }
 }
 @media (max-width: 600px) {
   html {
