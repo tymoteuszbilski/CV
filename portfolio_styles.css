@@ -1,0 +1,51 @@
+body {
+  background-color: ivory;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  margin: 6em;
+  display: flex;
+  gap: 10px;
+}
+
+img {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+img:hover {
+  width: 50vw;
+  z-index: 10;
+}
+
+#logo {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border-radius: 0.4em;
+  padding: 0.1rem;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  color: ivory;
+  background-color: black;
+}
